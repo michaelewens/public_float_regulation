@@ -12,7 +12,7 @@ Coming soon.
 
 ## Urls to 10-K filings
 
-This data contains the URLs to all 10-K and 10-KSB links from 1994 to 2020 (last update 12/1/2020).  We used a subset of these links to build the 10-K(SB) length data posted on the repository.  The variables in the file are:
+[This data(zipped csv)](https://github.com/michaelewens/public_float_regulation/blob/main/sec_10Klinks_all.csv.zip) contains the URLs to all 10-K and 10-KSB links from 1994 to 2020 (last update 12/1/2020).  We used a subset of these links to build the 10-K(SB) length data posted on the repository.  The variables in the file are:
 
 - `cik`: SEC identifier
 - `reportingdate`: date of 10-K fiscal year
