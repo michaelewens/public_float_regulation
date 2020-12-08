@@ -8,7 +8,17 @@ We collect public float data from firms' 10-K filings.  These filings disclose t
 
 ## Length of 10-K and 10-KSB parts: small firms, 1994-2007
 
-Coming soon.
+For the set of public firms with $25m or less public float, we collected all the 10-K and 10-KSB filings from 1994-2007.  We then parsed each file (after removing html and line breaks) to create simple string lengths of each of the 4 parts of the annual report.  The goal of this exercise was to determine the real differences in total disclosure (in characters) for "small business issuers" vs. other firms during the sample period.   [The data is available here](https://github.com/michaelewens/public_float_regulation/blob/main/length10K_less25m_float.csv) and has the following variables:
+
+- `cik`: SEC identifier
+- `form`: form type
+- `coname`: company name
+- `fyear`: fiscal year
+- `fsize`: the raw file size (in MB) of the 10-K or 10-KSB filing
+- `url`: the link to the filing
+- `sbi`: equal to one if the company was a "small business issuer" in that year, 0 otherwise.
+- `lengthpart*`: the length (i.e., non-html or line break characters) for sections n=1,2,3 and 4
+- `missingPart*`: equal to 1 if the part reference -- 1,2,3 or 4 -- was not found in the filing
 
 ## Urls to 10-K filings
 
