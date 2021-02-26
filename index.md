@@ -1,4 +1,4 @@
-# Summary
+# Public float data from Ewens, Xiao and Xu (2020)
 
 This repository contains data and some code for the research paper "[Regulatory Costs of Being Public: Evidence from Bunching Estimation](https://osf.io/preprints/socarxiv/pdv8n/)" (Ewens, Xiao and Xu).
 
