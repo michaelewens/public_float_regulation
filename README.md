@@ -4,7 +4,7 @@ This repository contains data and some code for the research paper "[Regulatory 
 
 ## Public float data
 
-We collect public float data from firms' 10-K filings.  These filings disclose the market value of all outstanding common equity (voting and non-voting) held by non-affiliates at the end of the second fiscal quarter.  [The data](https://github.com/michaelewens/public_float_regulation/blob/main/public_float.csv) (`public_float.csv`) contains `cik` (SEC identifier), the year (`publicfloat_year`) and public float in millions (`publicfloat_mil`)
+We collect public float data from firms' 10-K filings.  These filings disclose the market value of all outstanding common equity (voting and non-voting) held by non-affiliates at the end of the second fiscal quarter.  [The data](https://github.com/michaelewens/public_float_regulation/blob/main/public_float.csv) (`public_float.csv`) contains `cik` (SEC identifier), the year (`publicfloat_year`) and public float in millions (`publicfloat_mil`). This dataset contains all CIK-years with a positive public float. Firms that did not file a 10-K, did not disclose public float, or had no publicly traded shares are excluded from the dataset.
 
 ## Length of 10-K and 10-KSB parts: small firms, 1994-2007
 
